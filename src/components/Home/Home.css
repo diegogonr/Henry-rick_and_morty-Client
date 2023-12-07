@@ -1,0 +1,40 @@
+
+.home_img {
+    background-image: url(../../Data/background_home.jpeg);
+    background-position: center center;
+    background-attachment: fixed;   /*img fija*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 60px); /* Esto asegura que el fondo cubra toda la altura de la pantalla */
+    /* margin-top: 60px; */
+
+}
+.home_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: inherit; 
+    color: white
+
+  }
+  
+  .home_title {
+    border: solid 5px yellow;
+    border-radius: 10px;
+    padding: 1rem;
+    font-size: 24px;
+    font-weight: 900;
+  }
+  .home_title:hover{
+    background-color: white;
+    color: black;
+        
+    }
+  
+  
+  .home_container h3 {
+    margin-top: 2rem;
+    font-size: 18px;
+  }

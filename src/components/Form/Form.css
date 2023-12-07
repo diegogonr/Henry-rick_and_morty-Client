@@ -1,0 +1,11 @@
+
+.errorsData {
+    /* background-color: black; */
+
+    font-size: 10px;
+    margin: 0;
+    margin-left: 5px;
+    text-align: left;
+    color: red;
+    width: auto;
+}
